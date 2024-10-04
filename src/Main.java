@@ -24,8 +24,8 @@ public class Main {
 
         Song[] armstrongSongs = shelf.findSongsBySinger("Armstrong");
 
-        for (int i = 0; i < elvisSongs.length; i++)
-            System.out.println(elvisSongs[i]);
+        for(Song s : elvisSongs)
+            System.out.println(s);
 
         for (int i = 0; i < armstrongSongs.length; i++)
             System.out.println(armstrongSongs[i]);
