@@ -3,7 +3,7 @@ import java.sql.SQLOutput;
 public class Main {
     public static void main(String[] args) {
         //ppj28
-        /*Album alb1 = new Album("Loving You",
+        Album alb1 = new Album("Loving You",
                 new Song[]{
                         new Song("Elvis","Party"),
                         new Song("Elvis","Hot Dog")
@@ -30,7 +30,7 @@ public class Main {
             System.out.println(elvisSongs[i]);
 
         for(int i = 0; i < armstrongSongs.length; i++)
-            System.out.println(armstrongSongs[i]);*/
+            System.out.println(armstrongSongs[i]);
 
         //ppj25
             //1
@@ -45,12 +45,12 @@ public class Main {
         }catch (Exception e){
             System.out.println(e.getMessage());
         }*/
-            //2
-                /*try{
+                try{
                     SmokeDetector.check();
                 }catch(Alarm alarm){
                     System.out.println(alarm.getMessage());
-                }*/
+                }
+        //2
 
             //3
                 try{
