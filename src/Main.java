@@ -35,7 +35,7 @@ public class Main {
         try {
             MyClass.myMethod();
         } catch (MyException e) {
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
 
         try {
