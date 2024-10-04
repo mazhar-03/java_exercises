@@ -59,7 +59,7 @@ public class Main {
             r.refuel();
             r.start();
         } catch (Exception e) {
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
 
     }
