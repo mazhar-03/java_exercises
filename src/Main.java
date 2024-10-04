@@ -27,8 +27,8 @@ public class Main {
         for(Song s : elvisSongs)
             System.out.println(s);
 
-        for (int i = 0; i < armstrongSongs.length; i++)
-            System.out.println(armstrongSongs[i]);
+        for(Song s : armstrongSongs)
+            System.out.println(s);
 
         //ppj25
         //1
