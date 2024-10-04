@@ -1,6 +1,6 @@
 public class Song {
-    private String singer;
-    private String title;
+    private final String singer;
+    private final String title;
     public Song(String singer, String title){
         this.singer = singer;
         this.title = title;

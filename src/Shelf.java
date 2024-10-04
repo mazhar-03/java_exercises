@@ -1,5 +1,5 @@
 public class Shelf {
-    private Album[] albums;
+    private final Album[] albums;
 
     public Shelf(Album[] albums) {
         this.albums = albums;

@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class Album {
     private final String title;
     private final Song[] songs;
